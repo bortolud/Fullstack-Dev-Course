@@ -1,0 +1,28 @@
+header h1{
+    background: url("./pattern.jpeg");
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+strong{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+.first{
+    background-color: mediumspringgreen;
+}
+.second{
+    background-color: lightcoral;
+}
+.third{
+    background-color: skyblue;
+}
