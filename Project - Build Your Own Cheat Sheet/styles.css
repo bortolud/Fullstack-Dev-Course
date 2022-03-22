@@ -1,0 +1,27 @@
+h1, h2, h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table{
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    background-color: white;
+}
+th{
+    background-color: slategray;
+    color: white;
+}
+.centered{
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+}
