@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Red+Hat+Mono:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin: 0 7rem;
+}
+h1{
+    font-family: 'Merriweather', serif;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 2em;
+}
+section{
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.color-box{
+    display: inline-block;
+    width: 43%;
+    height: 200px;
+    margin: 1em;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.color-box p{
+    height: 75px;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.accent{
+    background-color: #ef8354;
+}
+.dark{
+    background-color: #2d3142;
+}
+.light{
+    background-color: #bfc0c0;
+}
+.white{
+    background-color: #ffffff;
+}
+.accent p{
+    color: #2d3142;
+}
+.dark p{
+    color: #bfc0c0;
+}
+.light p{
+    color: #2d3142;
+}
+.white p{
+    color: #2d3142;
+}
+.container{
+    display: inline-block;
+    width: 43%;
+    height: 200px;
+    margin: 1em;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.container p, .container h3{
+    height: 30px;
+    text-align: center;
+    margin: 15px 0;
+    font-size: 20px;
+}
+.font1{
+    font-family: 'Merriweather', serif;
+}
+.font2{
+    font-family: 'Roboto', sans-serif;
+}
+.font3{
+    font-family: 'Red Hat Mono', monospace;
+}
+.text-styles{
+    padding: 0 2em;
+}
