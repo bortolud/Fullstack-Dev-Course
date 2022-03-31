@@ -69,6 +69,9 @@ main{
 .website-info, .pomodoro-info, .android-info, .algo-info{
     display: none;
 }
+.website-trigger, .pomodoro-trigger, .android-trigger, .algo-trigger{
+    cursor: pointer;
+}
 
 /* Skills */
 .skills{
