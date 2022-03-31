@@ -1,6 +1,10 @@
 /* Global */
 *{
-    margin: 0;
+    margin: 0rem;
+}
+body{
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
 h1, h2{
     font-family: 'Merriweather', serif;
@@ -33,6 +37,7 @@ header li{
 header li a{
     text-decoration: none;
     color: #323232;
+    font-size: 1.15rem;
 }
 
 /* About */
@@ -46,10 +51,11 @@ main{
 }
 .about img{
     max-width: 300px;
-    height: auto;
+    max-height: 300px;
     border-radius: 20px;
-    border: 1px solid #323232;
+    /* border: 1px solid #323232; */
     margin-left: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about p{
     margin: 1rem 0;
@@ -77,9 +83,10 @@ main{
 .skills{
     max-width: 1000px;
     margin: 1rem; 
+    padding: 1rem 0;
 }
 .icon-container{
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -88,4 +95,42 @@ main{
     padding: 1em 0.5em;
     display: inline;
     color: #323232;
+}
+
+/* Smaller displays */
+@media screen and (max-width: 700px){
+    header{
+        flex-direction: column;
+    }  
+    .header-spacer{
+        display: none;
+    }
+    header ul{
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about img{
+        max-width: 500px;
+        height: auto;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+    .about, .projects, .skills{
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 1100px){
+    header, .about, .projects, .skills{
+        max-width: 800px;
+    }
+}
+@media screen and (max-width: 900px){
+    header, .about, .projects, .skills{
+        max-width: 700px;
+    }
 }
